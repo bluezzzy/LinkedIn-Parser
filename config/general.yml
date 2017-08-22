@@ -1,0 +1,20 @@
+general:
+  #Your LinkedIn email and password
+  email:
+  password:
+group_scraper:
+  #ID of the group you are in
+  group_id: #group_id
+  #Number of users to parse
+  number_of_users: #n
+  #Path to the file with strings to search
+  input_file_path: file
+  #Path to the file where IDs of found users will be saved
+  output_file_path: members
+users_scraper:
+  #Path to the file with IDs
+  input_file_path: members
+  #Path to the DB
+  output_file_path: results
+
+
