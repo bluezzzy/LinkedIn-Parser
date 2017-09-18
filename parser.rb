@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require 'open-uri'
 require 'capybara'
 require 'capybara/dsl'
